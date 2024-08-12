@@ -1,0 +1,21 @@
+.category-menu {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .category-menu button {
+    background-color: #00796b;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    cursor: pointer;
+  }
+  
+  .category-menu button:hover {
+    background-color: #004d40;
+  }
+  
