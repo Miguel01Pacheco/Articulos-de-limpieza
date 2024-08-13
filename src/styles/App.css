@@ -30,7 +30,7 @@
   }
   
   button {
-    background-color: #00796b;
+    background-color: #0f65b4;
     color: white;
     border: none;
     padding: 10px;
@@ -40,7 +40,7 @@
   }
   
   button:hover {
-    background-color: #004d40;
+    background-color: #38bce1;
   }
   
   @media (max-width: 768px) {

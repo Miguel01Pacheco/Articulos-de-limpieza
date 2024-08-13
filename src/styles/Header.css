@@ -1,32 +1,38 @@
 .header {
-    background-color: #e0f7fa;
+    background-color: #8fe3ee;
     padding: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
   }
-  .header .titulo {
-    display: flex;
-    flex-direction: column;
-    column-gap: 5px;
-  }
-  
-  .header h1,.header h2 {
-    margin-bottom: 0px;
-    color: #00796b;
-  }
-  
+
   .header nav a {
-    
-    color: #00796b;
+    display: flex;
+    column-gap: 10px;
+    text-align: center;
     text-decoration: none;
-    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: #0f65b4;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    cursor: pointer;
   }
+  .header nav a:hover {
+    background-color: #38bce1;
+  }
+  /*
   .header .link-carrito {
     margin-top: 20px;
     display: flex;
     align-items: center;
     gap: 5px;
+  }
+    */
+  .logo-mass {
+    width: 120px
   }
   
   .cart-icon {
