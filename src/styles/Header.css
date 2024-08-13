@@ -5,16 +5,28 @@
     justify-content: space-between;
     align-items: center;
   }
+  .header .titulo {
+    display: flex;
+    flex-direction: column;
+    column-gap: 5px;
+  }
   
-  .header h1 {
+  .header h1,.header h2 {
+    margin-bottom: 0px;
     color: #00796b;
   }
   
   .header nav a {
-    margin: 0 10px;
+    
     color: #00796b;
     text-decoration: none;
     font-weight: bold;
+  }
+  .header .link-carrito {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
   }
   
   .cart-icon {

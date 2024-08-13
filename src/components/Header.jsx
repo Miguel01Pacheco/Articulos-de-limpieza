@@ -5,11 +5,18 @@ import '../styles/Header.css';
 function Header() {
   return (
     <header className="header">
-      <h1>Artículos de Limpieza</h1>
+      <div className='titulo'>
+        <h1>MAAS</h1>
+        <h2>Artículos de Limpieza</h2>
+      </div>
       <nav>
         <Link to="/">Inicio</Link>
         <Link to="/cart">
-          <img src="/images/cart_icon.png" alt="Cart" className="cart-icon" />
+          <div className='link-carrito'>
+          Ver Carrito
+          <img src="../public/images/icono-carrito.png" alt="Cart" className="cart-icon" />
+          </div>
+
         </Link>
       </nav>
     </header>

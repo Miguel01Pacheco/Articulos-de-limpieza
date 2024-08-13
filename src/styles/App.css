@@ -46,6 +46,7 @@
   @media (max-width: 768px) {
     .category-menu {
       flex-direction: column;
+      gap: 10px;
     }
   
     .product-card, .cart-item {
