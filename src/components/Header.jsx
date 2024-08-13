@@ -14,7 +14,7 @@ function Header() {
         <Link to="/cart">
           <div className='link-carrito'>
           Ver Carrito
-          <img src="/public/icono-carrito.png" alt="Cart" className="cart-icon" />
+          <img src="/icono-carrito.png" alt="Cart" className="cart-icon" />
           </div>
 
         </Link>
