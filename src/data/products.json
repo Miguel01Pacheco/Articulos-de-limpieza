@@ -1,7 +1,7 @@
 
  {
   "Lavado De Ropa": [
-    { "id": 1, "nombre": "Jabón Líquido Premium", "imagen": "/src/assets/images/jabon-liquido-verde.png", "precio": 200, "promocion": "10% OFF", "descripcion": "Jabón líquido de alta calidad" },
+    { "id": 1, "nombre": "Jabón Líquido Premium", "imagen": "/public/jabon-liquido-verde.png", "precio": 200, "promocion": "10% OFF", "descripcion": "Jabón líquido de alta calidad" },
     { "id": 2, "nombre": "Jabón Líquido Azul", "imagen": "/images/jabon_liquido_azul.jpg", "precio": 150, "promocion": "5% OFF", "descripcion": "Jabón líquido azul para ropa" },
     { "id": 3, "nombre": "Jabón Líquido Neutro", "imagen": "/images/jabon_liquido_neutro.jpg", "precio": 180, "promocion": "15% OFF", "descripcion": "Jabón líquido neutro para piel sensible" },
     { "id": 4, "nombre": "Suavizante Clásico", "imagen": "/images/suavizante_clasico.jpg", "precio": 100, "promocion": "10% OFF", "descripcion": "Suavizante para ropa clásica" },
