@@ -1,7 +1,7 @@
 
  {
   "Lavado De Ropa": [
-    { "id": 1, "nombre": "Jabón Líquido Premium", "imagen": "/jabon-liquido-verde.png", "precio": 200, "promocion": "10% OFF", "descripcion": "Jabón líquido de alta calidad" },
+    { "id": 1, "nombre": "Jabón Líquido Premium", "imagen": "/jabon-liquido-verde.png", "precio": 200, "promocion": "", "descripcion": "Jabón líquido de alta calidad" },
     { "id": 2, "nombre": "Jabón Líquido Azul", "imagen": "/images/jabon_liquido_azul.jpg", "precio": 150, "promocion": "5% OFF", "descripcion": "Jabón líquido azul para ropa" },
     { "id": 3, "nombre": "Jabón Líquido Neutro", "imagen": "/images/jabon_liquido_neutro.jpg", "precio": 180, "promocion": "15% OFF", "descripcion": "Jabón líquido neutro para piel sensible" },
     { "id": 4, "nombre": "Suavizante Clásico", "imagen": "/images/suavizante_clasico.jpg", "precio": 100, "promocion": "10% OFF", "descripcion": "Suavizante para ropa clásica" },
@@ -10,7 +10,7 @@
     { "id": 7, "nombre": "Perfumina Vivere", "imagen": "/images/perfumina_vivere.jpg", "precio": 90, "promocion": "10% OFF", "descripcion": "Perfumina Vivere para ropa" },
     { "id": 8, "nombre": "Perfumina Coniglio", "imagen": "/images/perfumina_coniglio.jpg", "precio": 95, "promocion": "10% OFF", "descripcion": "Perfumina Coniglio para ropa" }
   ],
-  "Limpiadores Desodorantes De Piso": [
+  "Desodorantes De Piso": [
     { "id": 9, "nombre": "Arpege", "imagen": "/images/arpege.jpg", "precio": 70, "promocion": "5% OFF", "descripcion": "Limpiador desodorante de piso Arpege" },
     { "id": 10, "nombre": "Limón", "imagen": "/images/limon.jpg", "precio": 65, "promocion": "5% OFF", "descripcion": "Limpiador desodorante de piso Limón" },
     { "id": 11, "nombre": "Colonia", "imagen": "/images/colonia.jpg", "precio": 75, "promocion": "5% OFF", "descripcion": "Limpiador desodorante de piso Colonia" },
@@ -21,7 +21,7 @@
     { "id": 16, "nombre": "Pino", "imagen": "/images/pino.jpg", "precio": 75, "promocion": "5% OFF", "descripcion": "Limpiador desodorante de piso Pino" },
     { "id": 17, "nombre": "Pinomenta", "imagen": "/images/pinomenta.jpg", "precio": 85, "promocion": "5% OFF", "descripcion": "Limpiador desodorante de piso Pinomenta" }
   ],
-  "Productos Para Piscinas": [
+  "Piscinas": [
     { "id": 18, "nombre": "Hipoclorito de Sodio", "imagen": "/images/hipoclorito_sodio.jpg", "precio": 50, "promocion": "10% OFF", "descripcion": "Producto para piscina Hipoclorito de Sodio" },
     { "id": 19, "nombre": "Alguicida", "imagen": "/images/alguicida.jpg", "precio": 60, "promocion": "10% OFF", "descripcion": "Producto para piscina Alguicida" },
     { "id": 20, "nombre": "Clarificador", "imagen": "/images/clarificador.jpg", "precio": 55, "promocion": "10% OFF", "descripcion": "Producto para piscina Clarificador" },
