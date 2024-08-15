@@ -1,9 +1,9 @@
 .header {
-    background-color:  #3cd8ec;
+    background-color: var(--color-primario);
     width: 100%;
     padding: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     position: fixed;
     top: 0px;
@@ -14,7 +14,7 @@
     text-align: center;
     text-decoration: none;
     margin-bottom: 10px;
-    background-color: #0f65b4;
+    background-color: var(--color-secundario);
     color: black;
     border: none;
     padding: 10px;

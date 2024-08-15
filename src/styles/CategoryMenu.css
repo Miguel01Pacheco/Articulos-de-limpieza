@@ -9,7 +9,8 @@
   }
   
   .category-menu button {
-    background-color:#0f65b4;
+    background-color:var(--color-secundario
+    );
     color: black;
     border: none;
     padding: 10px;

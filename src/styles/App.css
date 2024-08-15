@@ -12,14 +12,13 @@
   .product-card, .cart-item {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    align-items:center;
     text-align: center;
     background:radial-gradient(circle,#3cd8ec, #0f65b4 );
     border: 1px solid #ccc;
-    margin: 10px;
     padding: 10px;
-    width: 280px;
+    width: 200px;
     border-radius: 8px;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
   }
@@ -30,21 +29,23 @@
   }
 
   .precio-card {
-    font-size: larger;
+    font-size: xx-large;
+    margin: 5px;
   }
 
   .promocion-card {
-    font-size: x-large;
+    font-size: xx-large;
+    margin: 5px;
   }
   
   .product-card img, .cart-item img {
-    width: 100%;
+    width: 120px;
     height: auto;
     border-radius: 8px;
   }
   
   button {
-    background-color: #0f65b4;
+    background-color: var(--color-secundario);
     color: black;
     border: none;
     padding: 10px;

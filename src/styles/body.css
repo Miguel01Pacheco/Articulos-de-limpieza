@@ -4,3 +4,7 @@ body {
     box-sizing: border-box;
     position: relative;
 }
+:root {
+    --color-primario: #3cd8ec ;
+    --color-secundario: #0f65b4 ; 
+  }
