@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    box-sizing: border-box;
   }
   
   main {
@@ -13,17 +14,30 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:  #8fe3ee;
+    text-align: center;
+    background:radial-gradient(circle,#3cd8ec, #0f65b4 );
     border: 1px solid #ccc;
     margin: 10px;
     padding: 10px;
-    width: 150px;
+    width: 280px;
     border-radius: 8px;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
   }
+
+  .nombre-card {
+    font-size: x-large;
+    text-transform: uppercase;
+  }
+
+  .precio-card {
+    font-size: larger;
+  }
+
+  .promocion-card {
+    font-size: x-large;
+  }
   
   .product-card img, .cart-item img {
-    background-color:whitesmoke;
     width: 100%;
     height: auto;
     border-radius: 8px;
@@ -35,7 +49,7 @@
     border: none;
     padding: 10px;
     cursor: pointer;
-    border-radius: 8px;
+    border-radius: 15px;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
   }
   

@@ -1,9 +1,12 @@
 .header {
-    background-color: #8fe3ee;
+    background-color:  #3cd8ec;
+    width: 100%;
     padding: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0px;
   }
 
   .header nav a {
@@ -15,7 +18,7 @@
     color: black;
     border: none;
     padding: 10px;
-    border-radius: 8px;
+    border-radius: 15px;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
     cursor: pointer;
   }
